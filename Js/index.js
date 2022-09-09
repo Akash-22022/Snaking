@@ -61,19 +61,19 @@ function gameEngine() {
             speed = 5;
         }
         if (score >= 10) {
-            speed = 8;
+            speed = 6;
         }
         if (score >= 12) {
-            speed = 12;
+            speed = 7;
         }
         if (score >= 14) {
-            speed = 16;
+            speed = 8;
         }
         if (score >= 16) {
-            speed = 20;
+            speed = 9;
         }
         if (score >= 20) {
-            speed = 25;
+            speed = 10;
         }
         foodSound.play();
         snakeArr.unshift({
